@@ -17,7 +17,7 @@
      {item:'img/twitter.png'},
      {item:'img/facebook.png'},
      {item:'img/linkedin.png'},
-     {item:'img/g+.png'}
+     {item:'img/g.png'}
    ];
 
  }]);
