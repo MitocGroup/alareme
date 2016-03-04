@@ -7,9 +7,9 @@
   };
 
      $scope.author = {
-       'denumire': 'Academic Roman-Englez, Mircea Eliade',
-       'city': 'MD-2012, mun. Chișinău,',
-       'adress_phone': 'str. Mitropolit G. Banulescu-Bodoni, 3 tel: +373 22 233 936'
+       'denumire': 'Academic Roman-Englez Mircea Eliade',
+       'city': 'MD-2012, mun. Chișinău',
+       'adress_phone': 'str. Mitropolit G. Banulescu-Bodoni, 33 tel: +373 22 233 936'
      };
 
    $scope.images=[
