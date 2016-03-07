@@ -504,9 +504,13 @@ footer {
     background-color: $green;
     .copy {
         float: left;
-        margin: 3.125em 0.625em;
+        margin: 2.5em 0.625em;
         color: white;
         font-weight: 100;
+        
+        a{
+            color:white;
+        }
     }
     .social {
         float: right;
