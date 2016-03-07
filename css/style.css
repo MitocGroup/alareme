@@ -404,9 +404,13 @@ footer {
   background-color: #3ec7b0; }
   footer .copy {
     float: left;
-    margin: 3.125em 0.625em;
+    margin: 2.5em 0.625em;
     color: white;
     font-weight: 100; }
+     footer .copy a{
+    color: white;
+    text-decoration: none;
+   }
   footer .social {
     float: right; }
     footer .social li {
