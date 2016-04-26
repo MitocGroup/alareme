@@ -7,17 +7,25 @@ jQuery(document).ready(function() {
   });
 
   jQuery( ".bl1" ).click(function() {
+    slideUpAll();
     jQuery( ".vis1" ).slideToggle( "slow" );
   });
 
 
   jQuery( ".bl2" ).click(function() {
+    slideUpAll();
     jQuery( ".vis2" ).slideToggle( "slow" );
   });
 
 
   jQuery( ".bl3" ).click(function() {
+    slideUpAll();
     jQuery( ".vis3" ).slideToggle( "slow" );
   });
+
+  function slideUpAll() {
+    jQuery(".hidden").slideUp('slow');
+  }
+
 
 });
