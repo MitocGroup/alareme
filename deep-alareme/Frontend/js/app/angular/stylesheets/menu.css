@@ -1,0 +1,95 @@
+/*----- Toggle Button -----*/
+.toggle-nav {
+  display:none;
+}
+
+/*----- Menu -----*/
+@media screen and (max-width: 480px) {
+
+}
+
+
+/*----- Responsive -----*/
+@media screen and (max-width: 1150px) {
+.sort_block{
+  display: none;
+}
+}
+
+@media screen and (max-width: 970px) {
+  .search-form input {
+    width:120px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .menu {
+    position:relative;
+    display:inline-block;
+  }
+
+  .menu ul.active {
+    display:none;
+  }
+
+  .menu ul {
+    position:absolute;
+    top:120%;
+    right:0px;
+    padding:10px 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:3px;
+    background:#fff;
+    width: 170px;
+  }
+
+
+  .menu li {
+    margin:5px 0px 5px 0px;
+    float:none;
+    display:block;
+  }
+
+  .menu li a {
+    display:block;
+    text-decoration: none;
+    float:left;
+  }
+  .menu p a {
+    display:block;
+    text-decoration: none;
+    float:right;
+  }.menu a {
+    display:block;
+    text-decoration: none;
+    float:right;
+
+  }
+
+  .toggle-nav {
+    padding:20px;
+    float:left;
+    display:inline-block;
+    top: 0;
+    position: absolute;
+    right: 0;
+    border-radius:3px;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    color:#777;
+    font-size:20px;
+    transition:color linear 0.15s;
+  }
+
+  .toggle-nav:hover, .toggle-nav.active {
+    text-decoration:none;
+  }
+
+}
+@media screen and (max-width: 889px) {
+  .menu a {
+    display:block;
+    text-decoration: none;
+    float:right;
+
+  }
+}
