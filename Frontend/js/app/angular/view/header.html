@@ -1,0 +1,21 @@
+<!--<div class="deep-alareme-header">-->
+<header>
+    <div class="social_logo clearfix wow fadeInUp">
+        <ul>
+            <li> <img ng-src="{{headerCtrl.deepAsset.locate('@deep-alareme:img/logo-menu.png')}}"></li>
+            <li> <img ng-src="{{headerCtrl.deepAsset.locate('@deep-alareme:img/twitter.png')}}"></li>
+            <li> <img ng-src="{{headerCtrl.deepAsset.locate('@deep-alareme:img/facebook.png')}}"></li>
+            <li> <img ng-src="{{headerCtrl.deepAsset.locate('@deep-alareme:img/linkedin.png')}}"></li>
+            <li> <img ng-src="{{headerCtrl.deepAsset.locate('@deep-alareme:img/g.png')}}"></li>
+        </ul>
+    </div>
+
+    <nav class="clearfix menu wow fadeInDown">
+        <ul  class="active" >
+            <li ><a href="#"> Acasă </a></li>
+            <li ng-click="headerCtrl.scrollTo('despre')">Despre Noi</li>
+            <li ng-click="headerCtrl.scrollTo('proiecte')">Proiecte</li>
+            <li ng-click="headerCtrl.scrollTo('contact')">Contact</li>
+        </ul>
+    </nav>
+</header>
