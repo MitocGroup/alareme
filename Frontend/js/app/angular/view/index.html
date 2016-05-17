@@ -5,7 +5,6 @@
 
     <div class="first_section">
         <div class="first_section_content">
-
             <div class="logo wow fadeInDown"></div>
             <img ng-src="{{indexCtrl.deepAsset.locate('@deep-alareme:img/a.png')}}">
 
@@ -55,7 +54,7 @@
                 <span>Proiecte</span></a>
         </div>
         <div class="box wow fadeInUp">
-            <a href="#doneaza_s">
+            <a ng-click="headerCtrl.scrollTo('contact')">
                 <img ng-src="{{indexCtrl.deepAsset.locate('@deep-alareme:img/doneaza.png')}}">
                 <span>Donează</span></a>
         </div>
@@ -79,7 +78,7 @@
                 Nu ezitați să oferiți un prezent și viitor mai bun copiilor!</p>
 
             <ul class="wow fadeInUp">
-                <li><a href="#" class="doneaza">Donează acum!</a></li>
+                <li><a ng-click="headerCtrl.scrollTo('contact')"class="doneaza">Donează acum!</a></li>
             </ul>
         </div>
     </div>
