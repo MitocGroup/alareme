@@ -87,7 +87,7 @@ main .first_section {
   background-color: #1E2832;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: url("/Frontend/img/img_header.png");
+  background-image: url("/deep-alareme/img/img_header.png");
   background-size: cover;
   text-align: center; }
   main .first_section .first_section_content{
@@ -187,7 +187,7 @@ main .second_section {
   padding: 6.875em 3.125em 5.313em 3.125em;
   background-color: #1E2832;
   color: rgba(255, 255, 255, 0.75);
-  background-image: url("/Frontend/img/donate_bg.png");
+  background-image: url("/deep-alareme/img/donate_bg.png");
   background-size: cover;
   text-align: center;
   background-attachment: fixed; }
@@ -243,7 +243,7 @@ main #proiecte .section_content p {
 main #proiecte .third_section .row {
   width: 100%; }
   main #proiecte .third_section .row .image_box1 {
-    background-image: url("/Frontend/img/1.png");
+    background-image: url("/deep-alareme/img/1.png");
     background-size: cover;
     display: block;
     width: 33.33333%;
@@ -251,7 +251,7 @@ main #proiecte .third_section .row {
     float: left;
     background-position: 50% 50%; }
   main #proiecte .third_section .row .image_box2 {
-    background-image: url("/Frontend/img/2.png");
+    background-image: url("/deep-alareme/img/2.png");
     background-size: cover;
     display: block;
     width: 33.33333%;
@@ -259,7 +259,7 @@ main #proiecte .third_section .row {
     float: left;
     background-position: 50% 50%; }
   main #proiecte .third_section .row .image_box3 {
-    background-image: url("/Frontend/img/3.png");
+    background-image: url("/deep-alareme/img/3.png");
     background-size: cover;
     display: block;
     width: 33.33333%;
