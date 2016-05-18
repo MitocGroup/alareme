@@ -17,10 +17,10 @@ class ContactsDirective {
     this.deepAsset = deepAsset;
     
     this.user = {
-      firstName: null,
-      phoneNumber: null,
-      email: null,
-      message:null,
+      firstName: '',
+      phoneNumber: '',
+      email: '',
+      message:'',
     };
   }};
 

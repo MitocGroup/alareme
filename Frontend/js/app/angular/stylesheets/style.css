@@ -59,7 +59,7 @@ main .section_name {
   main .section_name h4 {
     font-weight: 100;
     margin-bottom: 30px;
-    margin-top: 50px;
+    margin-top: 60px;
     color: #000;
     font-size: 23px;
     text-transform: uppercase; }
@@ -165,6 +165,7 @@ main .box_options{
     main .box_options .box img {
       height: 180px;
       width: 165px;
+      cursor: pointer;
     }
     main .box_options .box span:hover{
       color:#3ec7b0;
@@ -398,7 +399,8 @@ main #proiecte .section_content p.small{
     float: right;}
     #contact .form_section .form h5 {
       color: #5b5b5b;
-    float: left;}
+    float: left;
+    position:absolute;}
     #contact .form_section .form form {
       padding-right: 10.438em; }
       #contact .form_section .form form p:first-child {
@@ -462,7 +464,8 @@ main #proiecte .section_content p.small{
       #contact .form_section .form form .error {
         color: red;
         font-size: 13px;
-        font-weight: 600; }
+        font-weight: 600;
+      text-align:left;}
       #contact .form_section .form form .ng-binding {
         color: #3ec7b0;
         text-align: center;
@@ -585,6 +588,7 @@ footer {
   main .box_options .box img {
     height: 180px;
     width: 160px;
+
   } }
 @media screen and (max-width: 437px) {
   main .second_section {
