@@ -22,7 +22,12 @@ class ContactsDirective {
       email: '',
       message:'',
     };
-  }};
+  }
+  
+  sendClick() {
+    $('.slideInRight h5').text('Hello ' + this.user.firstName);
+  }
+};
 
 angular.module(name).directive('deepContacts', function deepContactsDirective() {
     return {

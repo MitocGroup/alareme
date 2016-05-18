@@ -21,7 +21,7 @@ class ProiecteDirective {
     this.$location.hash(elementId);
     this.$anchorScroll();
   }
-  
+
   showSecurity() {
     this.hideAllBoxes();
     $( ".vis1" ).slideToggle( "slow" );

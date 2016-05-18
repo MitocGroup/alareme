@@ -9,7 +9,6 @@ import './stylesheets/style.css!';
 import './module';
 import './routes';
 import './controller/IndexController';
-import './controller/RegisterController'
 import './directives/HeaderDirective';
 import './directives/ProiecteDirective';
 import './directives/ContactsDirective';
