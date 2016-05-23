@@ -43,7 +43,8 @@
 
         <div class="form wow slideInRight">
             <h5>Say hi/ join us/ get involved</h5>
-
+            <br>
+            <h4> </h4>
 
             <form name="Contacts" ng-submit="register()"  novalidate>
 
@@ -51,7 +52,7 @@
                     <label for="firstName">Nume</label>
                     <input type="text" id="firstname" name="firstname" placeholder="Harison Ford" ng-model="contactsCtrl.user.firstName" ng-required="true"/>
 
-                <p class="error validationerror" ng-show="myForm.firstname.$invalid && myForm.firstName.$touched"> Numele și Prenumele Dumnevoastră  </p>
+                <p class="error validationerror" ng-show="contactsCtrl.firstName.$invalid && contactsCtrl.firstName.$touched"> Numele și Prenumele Dumnevoastră  </p>
                 </p>
 
 
@@ -59,7 +60,7 @@
                     <label for="telefon">Telefon</label>
                     <input type="text" id="telefon" name="telefon" placeholder="0681 23 456" ng-model="contactsCtrl.user.phoneNumber" ng-required="true">
 
-                <p class="error validationerror" ng-show="myForm.telefon.$invalid && myForm.telefon.$touched"> Telefonul Dumnevoastră</p>
+                <p class="error validationerror" ng-show="contactsCtrl.telefon.$invalid && myForm.telefon.$touched"> Telefonul Dumnevoastră</p>
                 </p>
 
 
@@ -67,7 +68,7 @@
                     <label for="email">E-mail</label>
                     <input type="email" id="email" name="email" placeholder="harison.ford@gmail.com" ng-model="contactsCtrl.user.email" ng-required="true"/>
 
-                <p class="error validationerror" ng-show="myForm.email.$invalid && myForm.email.$touched"> Adresa de email</p>
+                <p class="error validationerror" ng-show="contactsCtrl.email.$invalid && myForm.email.$touched"> Adresa de email</p>
                 </p>
 
 
@@ -77,7 +78,7 @@
                 </p>
 
 
-                <button type="submit" id="button-blue" ng-disabled="ContactsController.$invalid" ng-click="contactsCtrl.sendClick()">Trimite</button>
+                <button type="submit" id="button-blue" ng-disabled="contactsCtrl.$invalid" ng-click="contactsCtrl.sendClick()">Trimite</button>
             </form>
 
         </div>

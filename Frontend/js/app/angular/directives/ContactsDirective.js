@@ -1,10 +1,3 @@
-/**
- * Created by alexei on 5/11/16.
- */
-/**
- * Created by alexei on 5/6/16.
- */
-
 'use strict';
 'format es6';
 
@@ -22,10 +15,9 @@ class ContactsDirective {
       email: '',
       message:'',
     };
-  }
-  
+  };
   sendClick() {
-    $('.slideInRight h5').text('Hello ' + this.user.firstName);
+    $('.slideInRight h4').text('Hello ' + this.user.firstName);
   }
 };
 
