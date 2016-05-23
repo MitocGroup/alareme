@@ -401,11 +401,10 @@ main #proiecte .section_content p.small{
     #contact .form_section .form h5 {
       color: #5b5b5b;
     float: left;
-    position:absolute;}
+    }
 #contact .form_section .form h4 {
   color: #5b5b5b;
-  float: left;
-  position:relative;}
+  float: left; }
     #contact .form_section .form form {
       padding-right: 10.438em; }
       #contact .form_section .form form p:first-child {
