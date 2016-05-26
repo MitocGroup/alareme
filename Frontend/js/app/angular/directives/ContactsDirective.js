@@ -19,6 +19,7 @@ class ContactsDirective {
   sendClick() {
     $('.slideInRight h4').text('Hello ' + this.user.firstName);
   }
+  
 };
 
 angular.module(name).directive('deepContacts', function deepContactsDirective() {
@@ -27,7 +28,6 @@ angular.module(name).directive('deepContacts', function deepContactsDirective() 
       controller: 'deepContactsController',
       controllerAs: 'contactsCtrl',
       templateUrl: deepAsset.locate('@deep-alareme:js/app/angular/view/contacts.html'),
-
     };
   })
 
