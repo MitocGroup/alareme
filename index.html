@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" ng-app="myApp" ng-controller="RegistrationController">
+<html lang="en" ng-app="myApp" ng-controller="RegistrationController" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8"/>
@@ -14,6 +14,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico"/>
     <script src="./js/angular.js"></script>
     <script src="./js/app.js"></script>
+
 </head>
 <body>
 
@@ -86,17 +87,17 @@
 
                 <div class="box_options">
                     <div class="box wow fadeInDown">
-                        <img src="./img/proiecte.png"> <span>Proiecte</span>
+                      <a href="#proiecte"> <img src="./img/proiecte.png"> <span>Proiecte</span></a>
                     </div>
                     <div class="box wow fadeInUp">
-                        <img src="./img/doneaza.png"> <span>Donează</span>
+                      <a href="#doneaza_s">  <img src="./img/doneaza.png"> <span>Donează</span></a>
                     </div>
                     <div class="box wow fadeInDown">
-                        <img src="./img/join_us.png"> <span>Contact</span>
+                       <a href="#contact"> <img src="./img/join_us.png"> <span>Contact</span></a>
                     </div>
                 </div>
 
-
+           <div id="doneaza_s">
             <div class="second_section">
                 <h5 class="wow fadeInDown">Ultimul sunet ne cheamă</h5>
                 <p class="wow fadeInUp">Anii de liceu... câte amintiri frumoase avem când ne gândim la ei!
@@ -112,7 +113,7 @@
                     <li><a href="#" class="doneaza">Donează acum!</a></li>
                 </ul>
             </div>
-
+          </div>
 
         <section id="proiecte">
 
@@ -122,35 +123,37 @@
             </div>
 
             <div class="section_content wow fadeInUp">
-                <p>E bine să nu uităm de unde am venit!</p>
+                 <p>E bine să nu uităm de unde am venit!</p>
             </div>
 
             <div class="third_section">
-                <div class="row">
+                <div class="row clearfix">
 
                     <div class="image_box1">
                         <div class="content">
                             <p>Securitatea şcolii (ex: intrarea cu carduri, cu statistică completă)</p>
-                            <a href="#" class="detalii_proiect">Detalii</a>
+                            <a href="#first_text" class="detalii_proiect bl1">Detalii</a>
                         </div>
                     </div>
 
                     <div class="image_box2">
                         <div class="content">
                             <p>Echipament pentru clasele de studii (ex: calculatoare, proiectoare si altele)</p> 
-                            <a href="#" class="detalii_proiect">Detalii</a>
+                            <a href="#second_text" class="detalii_proiect bl2">Detalii</a>
                         </div>
                     </div>
 
                     <div class="image_box3">
                     <div class="content">
                             <p>Echipament pentru sala de sport (a cărei construcţie a început!)</p> 
-                            <a href="#" class="detalii_proiect">Detalii</a>
+                            <a href="#third_text" class="detalii_proiect bl3">Detalii</a>
                         </div>
                     </div>
                 </div>
 
-                <!--<div class="row clearfix">
+                
+                
+          <!--  <div class="row clearfix">
                     <div class="image_box4">
                     <div class="content">
                             <p>Proiect de caritate a Liceului Mircea Eliade la care poți participa și tu!</p> 
@@ -169,9 +172,114 @@
                             <a href="#" class="detalii_proiect">Detalii</a>
                         </div>
                     </div>
-                </div>//-->
+                </div>-->
+                <section id="proiecte_text">
+                <div id="first_text">
+                    <div class="hidden vis1">
+                    <div class="section_name wow fadeInDown">
+                        <h4>Securitatea şcolii</h4>
+                        <div class="img_divider"><img src="./img/p.png" class="section_logo"></div>
+                    </div>
+
+                    <div class="section_content wow fadeInUp">
+                        <p>Intrarea cu carduri, cu statistică completă</p>
+                    </div>
+
+                    <div class="section_content wow fadeInUp">
+                        <p class="small">Acest subiect a fost unul actual și pe timpul când eram și noi elevi în
+                            liceu. (Cel puțin pentru părinții noștri…) De aceea, vă propunem să
+                            oferim acum mai multă siguranță elevilor din liceu și liniște părinților
+                            care își lasă copilul la școală în fiecare dimineață.<br>
+                          <span>  Dacă susțineți această idee, vă rugăm să accesați butonul
+
+                            ”DONEAZĂ” de mai jos.</span>
+                        </p>
+                    </div>
+
+                    <div>
+                        <ul class="wow fadeInUp">
+                            <li><a href="#" class="doneaza pink-btn">Donează </a></li>
+                        </ul>
+                    </div>
+                </div>
+                    </div>
+                </section>
+
+
+                <section id="proiecte_text">
+                     <div id="second_text">
+                         <div class="hidden vis2">
+                    <div class="section_name wow fadeInDown">
+                        <h4>Asigurarea cabinetelor de studii cu echipamentul necesar</h4>
+                        <div class="img_divider"><img src="./img/p.png" class="section_logo"></div>
+                    </div>
+                    <div class="section_content wow fadeInUp">
+                        <p>Calculatoare, proiectoare, etc.</p>
+                    </div>
+                    <div class="section_content wow fadeInUp">
+                        <p class="small">Dacă ne dorim o generație modernă și bine instruită, care să fie gata
+                            să perceapă și să prezinte informația nu doar sec pe hârtie, dar
+                            folosind tehnologiile moderne, cu argumente corecte și evidențiind
+                            cele mai importante momente - ar fi bine să începem prin a le oferi
+                            liceenilor și profesorilor care îi instruiesc posibilitatea de a utiliza
+                            tehnologia moderna (calculator și proiector) în sălile de clasă. În plus,
+                            lectiile vor deveni mai captivante și interactive.<br>
+                            <span>
+                                Dacă susțineți această idee, sunteți bineveniți s-o faceți prin
+                                accesarea butonului ”DONEAZĂ” de mai jos.
+                            </span>
+                        </p>
+                    </div>
+                    <div>
+                        <ul class="wow fadeInUp">
+                            <li><a href="#" class="doneaza pink-btn">Donează </a></li>
+                        </ul>
+                    </div>
+                     </div>
+                     </div>
+                </section>
+
+
+
+                <section id="proiecte_text">
+                      <div id="third_text">
+                          <div class="hidden vis3">
+                    <div class="section_name wow fadeInDown">
+                        <h4>Echipament pentru sala de sport</h4>
+                        <div class="img_divider"><img src="./img/p.png" class="section_logo"></div>
+                    </div>
+                    <div class="section_content wow fadeInUp">
+                        <p>A cărei construcţie a început!</p>
+                    </div>
+                    <div class="section_content wow fadeInUp">
+                        <p class="small">În sfârșit elevii pot avea șansa să facă ora de educație fizică într-o
+                            sală bine amenajată și dedicată anume acestei activități. Iar proverbul
+                            spune: „minte sănătoasă în corp sănătos”!
+                                În momentul de față s-a reușit să fie adunată circa o treime din suma
+                                necesară.<br>Dacă aveți alte idei de proiecte, vă rugăm să le comunicați la poșta
+                                electronică:…. . Vor fi cu atenție analizate și, cu participarea tuturor,
+                                REALIZATE.
+                                Haideți să schimbăm pozitiv viața elevilor din liceu și, astfel, și a
+                                societății din Moldova!
+                            <span> Dacă credeți că e bine să schimbam condițiile în care s-a
+                                făcut ora de sport pe vremea noastră, vă rugăm să apăsați butonul
+                                ”DONEAZĂ”.</span>
+                        </p>
+                    </div>
+
+                    <div>
+                        <ul class="wow fadeInUp">
+                            <li><a href="#" class="doneaza pink-btn">Donează </a></li>
+                        </ul>
+                    </div>
+                      </div>
+                      </div>
+                </section>
             </div>
         </section>
+
+
+
 
         <section id="contact">
             <div class="section_name wow fadeInDown">
@@ -250,7 +358,7 @@
 
                         <p>
                             <label for="mesaj" class="textarea_label">Mesaj</label>
-                            <textarea id="mesaj" name="mesaj" placeholder="Hi there, want to give you some money" ng-model="user.mesaj"/></textarea>
+                            <textarea id="mesaj" name="mesaj" placeholder="Hi there, want to give you some money" ng-model="user.mesaj"></textarea>
                         </p>
 
 
@@ -286,25 +394,13 @@
     </div>
 </footer>
 
-
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
+<script src="./js/main.js"></script>
 <script src="./js/wow.js"></script>
+
 <script>
     new WOW().init();
 </script>
-
-
-<script>
-    jQuery(document).ready(function() {
-        jQuery('.toggle-nav').click(function(e) {
-            jQuery(this).toggleClass('active');
-            jQuery('.menu ul').toggleClass('active');
-
-            e.preventDefault();
-        });
-    });
-</script>
-
 </body>
 </html>
