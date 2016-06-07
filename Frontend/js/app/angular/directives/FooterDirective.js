@@ -1,7 +1,3 @@
-/**
- * Created by alexei on 5/6/16.
- */
-
 'use strict';
 'format es6';
 

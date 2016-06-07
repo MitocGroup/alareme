@@ -15,8 +15,10 @@ class HeaderDirective {
   }
   
   scrollTo(elementId) {
+    let old = this.$location.hash();
     this.$location.hash(elementId);
     this.$anchorScroll();
+    this.$location.hash(old);
   }
 }
 

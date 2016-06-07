@@ -39,12 +39,12 @@ header {
     header nav ul li {
       line-height: 95px;
       padding: 0 25px; }
-      header nav ul li a {
+      header nav ul li {
         color: black;
         text-decoration: none;
         font-family: sans-serif;
         font-size: 18px; }
-        header nav ul li a:hover {
+        header nav ul li:hover {
           color: #3ec7b0;
           text-decoration: none; }
   header ul {

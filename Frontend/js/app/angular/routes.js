@@ -8,7 +8,7 @@ let deepAsset = DeepFramework.Kernel.get('asset');
 
 let routes = {
   'index': {
-    url: '/index',
+    url: '/alareme',
     controller: 'deepIndexController',
     templateUrl: deepAsset.locate('@deep-alareme:js/app/angular/view/index.html'),
     controllerAs: 'indexCtrl'

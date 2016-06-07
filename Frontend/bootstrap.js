@@ -9,7 +9,11 @@ export function configLoad() {
 export default function deepAlareme() {
   let deepAsset = DeepFramework.Kernel.get('asset');
 
-  // console.log(deepAsset.locate('deep-alareme/js/app/angular/index.js'));
+  return new Promise((resolve) => {
+    DeepFramework.Kernel.get('security').anonymousLogin(function() {
+      System.import('js/app/angular/index.js').then(resolve);
+    });
+  })
 
-  return System.import('js/app/angular/index.js');
+  // console.log(deepAsset.locate('deep-alareme/js/app/angular/index.js'));
 }
