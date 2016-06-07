@@ -14,7 +14,6 @@ class ProiecteDirective {
     this.deepAsset = deepAsset;
     this.$location = $location;
     this.$anchorScroll = $anchorScroll;
-
   }
 
   showMe(elementId) {
@@ -24,14 +23,13 @@ class ProiecteDirective {
     this.$location.hash(old)
   }
 
+  hideAllBoxes() {
+    $(".hidden").slideUp('slow');
+  };
   showSecurity() {
     this.hideAllBoxes();
     $( ".vis1" ).slideToggle( "slow" );
   }
-
-  hideAllBoxes() {
-    $(".hidden").slideUp('slow');
-  };
 
   showSala() {
     this.hideAllBoxes();
