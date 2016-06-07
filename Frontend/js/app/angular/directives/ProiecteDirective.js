@@ -18,8 +18,10 @@ class ProiecteDirective {
   }
 
   showMe(elementId) {
+    let old = this.$location.hash();
     this.$location.hash(elementId);
     this.$anchorScroll();
+    this.$location.hash(old)
   }
 
   showSecurity() {
