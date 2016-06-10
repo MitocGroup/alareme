@@ -1,7 +1,7 @@
 {
   "identifier": "deep-alareme",
   "name": "DeepAlareme",
-  "description": "Manages shopping cart, as well as checkout process. Integrates seamlessly with DeepAlareme microservice.",
+  "description": "Alareme",
   "version": "0.0.1",
   "propertyRoot": false,
   "frontendEngine": ["vanilla"],
