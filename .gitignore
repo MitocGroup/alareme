@@ -1,5 +1,5 @@
 .idea/
 .sass-cache/
-.deeploy.json
+deeploy.json*
 *.css.map
 
