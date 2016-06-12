@@ -1,0 +1,10 @@
+{
+  "identifier": "deep-alareme",
+  "name": "DeepAlareme",
+  "description": "Alareme",
+  "version": "0.0.1",
+  "propertyRoot": false,
+  "frontendEngine": ["vanilla"],
+  "dependencies": {
+  }
+}
