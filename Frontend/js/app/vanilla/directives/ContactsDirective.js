@@ -18,7 +18,7 @@ class ContactsDirective {
     };
   };
 
-  sendClick() {
+  var sendClick = function() {
     $('.slideInRight h4').text('Hello ' + this.user.firstName);
     
   }

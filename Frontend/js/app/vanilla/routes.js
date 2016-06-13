@@ -10,7 +10,7 @@ let routes = {
   'index': {
     url: '/alareme',
     controller: 'deepIndexController',
-    templateUrl: deepAsset.locate('@deep-alareme:js/app/angular/view/index.html'),
+    templateUrl: deepAsset.locate('@deep-alareme:js/app/vanilla/view/index.html'),
     controllerAs: 'indexCtrl'
   },
 };
