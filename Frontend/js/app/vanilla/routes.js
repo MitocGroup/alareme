@@ -14,11 +14,3 @@ var routes = {
     controllerAs: 'indexCtrl'
   },
 };
-
-angular.module(name).config(['$stateProvider', ($stateProvider) => {
-  for (let routeName in routes) {
-    if (routes.hasOwnProperty(routeName)) {
-      $stateProvider.state(routeName, routes[routeName]);
-    }
-  }
-}]);
