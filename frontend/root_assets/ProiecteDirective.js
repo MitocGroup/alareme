@@ -1,13 +1,4 @@
-/**
- * Created by alexei on 5/12/16.
- */
 
-'use strict';
-'format es6';
-
-import name from '../name';
-
-let deepAsset = DeepFramework.Kernel.get('asset');
 
 class ProiecteDirective {
   constructor($location, $anchorScroll) {

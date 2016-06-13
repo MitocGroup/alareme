@@ -1,10 +1,4 @@
 
-'use strict';
-'format es6';
-
-
-let deepAsset = DeepFramework.Kernel.get('asset');
-
 class HeaderDirective {
   constructor($location, $anchorScroll) {
     this.deepAsset = deepAsset;

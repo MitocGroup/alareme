@@ -1,9 +1,9 @@
 /**
  * Created by alexei on 6/13/16.
  */
-window.alert("Hello")
+// window.alert("Hello")
 
-var alert = function(){
- 
+var onClickalert = function(){
+  window.alert("Noroc")
   
-}
+};
