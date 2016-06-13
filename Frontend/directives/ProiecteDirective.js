@@ -26,32 +26,19 @@ class ProiecteDirective {
   hideAllBoxes() {
     $(".hidden").slideUp('slow');
   };
+
   showSecurity() {
     this.hideAllBoxes();
-    $( ".vis1" ).slideToggle( "slow" );
+    $(".vis1").slideToggle("slow");
   }
 
   showSala() {
     this.hideAllBoxes();
-    $( ".vis2" ).slideToggle( "slow" );
+    $(".vis2").slideToggle("slow");
   }
 
-  showSalaSport () {
+  showSalaSport() {
     this.hideAllBoxes();
-    $(".vis3" ).slideToggle("slow");
+    $(".vis3").slideToggle("slow");
   }
-
 }
-
-angular.module(name).directive('deepProiecte', function deepProiecterDirective() {
-    return {
-      restrict: 'E',
-      controller: 'deepProiecteController',
-      controllerAs: 'proiecteCtrl',
-      templateUrl: deepAsset.locate('@deep-alareme:js/app/angular/view/proiecte.html'),
-
-    };
-  })
-  .controller('deepProiecteController', ['$location', '$anchorScroll', function($location, $anchorScroll) {
-    return new ProiecteDirective($location, $anchorScroll);
-  }]);

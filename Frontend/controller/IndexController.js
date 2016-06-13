@@ -1,7 +1,6 @@
 /**
  * Created by alexei on 5/4/16.
  */
-import name from '../name';
 
 class IndexController {
   constructor() {
@@ -14,3 +13,4 @@ this.author = {
 }
 
 }
+

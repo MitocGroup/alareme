@@ -22,15 +22,3 @@ class HeaderDirective {
   }
 }
 
-angular.module(name).directive('deepHeader', function deepHeaderDirective() {
-    return {
-      restrict: 'E',
-      controller: 'deepHeaderController',
-      controllerAs: 'headerCtrl',
-      templateUrl: deepAsset.locate('@deep-alareme:js/app/angular/view/header.html'),
-
-    };
-  })
-  .controller('deepHeaderController', ['$location', '$anchorScroll', function($location, $anchorScroll) {
-    return new HeaderDirective($location, $anchorScroll);
-  }]);

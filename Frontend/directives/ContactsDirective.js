@@ -19,23 +19,9 @@ class ContactsDirective {
   };
 
   sendClick() {
-    //Display user name when button is clicked
     $('.slideInRight h4').text('Hello ' + this.user.firstName);
     
   }
 
 }
-angular.module(name).directive('deepContacts', function deepContactsDirective() {
-    return {
 
-      restrict: 'E',
-      controller: 'deepContactsController',
-      controllerAs: 'contactsCtrl',
-      templateUrl: deepAsset.locate('@deep-alareme:js/app/angular/view/contacts.html'),
-    };
-  })
-
-
-  .controller('deepContactsController', [() => {
-    return new ContactsDirective();
-  }]);
