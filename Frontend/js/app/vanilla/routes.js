@@ -6,7 +6,7 @@ import name from './name';
 
 let deepAsset = DeepFramework.Kernel.get('asset');
 
-var routes = {
+let routes = {
   'index': {
     url: '/alareme',
     controller: 'deepIndexController',
