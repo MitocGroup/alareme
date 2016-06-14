@@ -1,8 +1,9 @@
 /**
  * Created by alexei on 6/13/16.
  */
+'use strict';
+
 (function(framework) {
-  'use strict';
 
   var security = framework.Kernel.get('security');
   var resource = framework.Kernel.get('resource');

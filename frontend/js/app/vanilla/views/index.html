@@ -12,6 +12,9 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&subset=latin,latin-ext"/>
 
+    <script src="deep-alareme/root_assets/jquery-3.0.0.min.js"></script>
+    <script src="deep-alareme/root_assets/proiecte.js"></script>
+
 
 </head>
 <body>
@@ -78,15 +81,7 @@
             <p>ALAREME este o fundație non-profit înființată în 2016 de către absolvenții
                 Liceului Teoretic "Mircea Eliade". Ne dorim ca generațiile ce ne urmează să aibă parte
                 de tot ce e mai bun, inovativ și actual! De aceea, prin această fundație,
-                ne punem ca scop să susținem și promovăm proiectele de dezvoltare ale liceului.
-                Sperăm împreună să contribuim la realizări frumoase cu care să ne mândrim!</p>
-        </div>
-    </section>
-
-    <div class="box_options">
-        <div class="box wow fadeInDown">
-            <a href="#proiecte"> <img src="deep-alareme/img/proiecte.png"> <span>Proiecte</span></a>
-        </div>
+                ne punem ca scop să susținem și promovăm proiebl1
         <div class="box wow fadeInUp">
             <a href="#doneaza_s">  <img src="deep-alareme/img/doneaza.png"> <span>Donează</span></a>
         </div>
@@ -130,21 +125,21 @@
                 <div class="image_box1">
                     <div class="content">
                         <p>Securitatea şcolii (ex: intrarea cu carduri, cu statistică completă)</p>
-                        <a href="#first_text" class="detalii_proiect bl1">Detalii</a>
+                        <a class="detalii_proiect bl1" id="btn1" href="#first_text" >Detalii</a>
                     </div>
                 </div>
 
                 <div class="image_box2">
                     <div class="content">
                         <p>Echipament pentru clasele de studii (ex: calculatoare, proiectoare si altele)</p>
-                        <a href="#second_text" class="detalii_proiect bl2">Detalii</a>
+                        <a href="#second_text" id="btn2" class="detalii_proiect bl2">Detalii</a>
                     </div>
                 </div>
 
                 <div class="image_box3">
                     <div class="content">
                         <p>Echipament pentru sala de sport (a cărei construcţie a început!)</p>
-                        <a href="#third_text" class="detalii_proiect bl3">Detalii</a>
+                        <a href="#third_text" id="btn3"class="detalii_proiect bl3">Detalii</a>
                     </div>
                 </div>
             </div>
@@ -166,9 +161,7 @@
                                 liceu. (Cel puțin pentru părinții noștri…) De aceea, vă propunem să
                                 oferim acum mai multă siguranță elevilor din liceu și liniște părinților
                                 care își lasă copilul la școală în fiecare dimineață.<br>
-                          <span>  Dacă susțineți această idee, vă rugăm să accesați butonul
-
-                            ”DONEAZĂ” de mai jos.</span>
+                          <span>  Dacă susțineți această idee, vă rugăm să accesați butonul”DONEAZĂ” de mai jos.</span>
                             </p>
                         </div>
 
@@ -280,7 +273,6 @@
                     <div class="half_row content">
                         <h5>Fundația ALAREME - Absolventii Liceului</h5>
                         <p></p>
-                        <p></p>
                     </div>
 
 
@@ -293,7 +285,7 @@
                     </div>
 
                     <div class="half_row content">
-                        <h5> Liceul Academic {{author.denumire}}</h5>
+                        <h5></h5>
                         <p><p/>
                         <p></p>
                     </div>
@@ -301,10 +293,7 @@
             </div>
 
             <div class="form wow slideInRight">
-                <h5>Say hi/ join us/ get involved</h5>
-
-                <p id="displayUserName"></p>
-
+                <h5 id="hello">Say hi/ join us/ get involved</h5>
 
                 <form name="myForm" novalidate>
 
@@ -317,8 +306,8 @@
 
 
                     <p>
-                        <label for="telefon">Telefon</label>
-                        <input type="text" id="telefon" name="telefon" placeholder="0681 23 456">
+                        <label for="phone">Telefon</label>
+                        <input type="text" id="phone" name="phone" placeholder="0681 23 456">
 
                     <p class="error validationerror"> You must fill out your telefon </p>
                     </p>
@@ -338,7 +327,7 @@
                     </p>
 
 
-                    <button type="submit" id="button-blue" onclick="this.alert()" id="alert">Trimite</button>
+                    <button type="submit" id="button-blue" onclick="showUser()">Trimite</button>
 
                 </form>
 
