@@ -19,17 +19,24 @@ ul {
   list-style-type: none; }
 
 header {
-  height: 110px;
+  height: 95px;
+  width: 100%;
+  position: fixed;
+  background: rgba(255,255,255,0.3);
 }
 header .social_logo {
   float: left;
-  overflow: hidden; }
+  overflow: hidden;
+  }
 header .social_logo li:first-child {
   line-height: 110px;
-  margin: 1.3em 0.625em 1.3em 3.250em; }
+  margin: 1.3em 0.625em 1.3em 3.250em;
+}
 header .social_logo li {
   line-height: 110px;
   margin: 1.3em 0.625em; }
+
+
 header nav {
   float: right; }
 header nav ul li:last-child {
@@ -58,7 +65,8 @@ main .section_name h4 {
   margin-bottom: 30px;
   color: #000;
   font-size: 23px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding: 100px;}
 main .section_name .img_divider {
   overflow: hidden;
   text-align: center; }
@@ -551,6 +559,8 @@ footer .social li:last-child {
     display: inline-block;
     text-align: center;
     margin: 1.250em 5em 4.500em 5em; }
+
+
 
 
 
