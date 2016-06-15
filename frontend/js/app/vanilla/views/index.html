@@ -328,25 +328,25 @@
 
                     <p>
                         <label for="firstname">Nume</label>
-                        <input type="text" id="firstname" name="firstname" placeholder="Harison Ford"/>
+                        <input type="text" id="firstname" name="firstname" placeholder="Harison Ford" onchange="userName(this)"/>
 
-                    <p class="error validationerror"> You must fill out your name </p>
+                    <p class="error validationerror" id="checkName" ></p>
                     </p>
 
 
                     <p>
                         <label for="phone">Telefon</label>
-                        <input type="text" id="phone" name="phone" placeholder="0681 23 456">
+                        <input type="text" id="phone" name="phone" placeholder="0681 23 456" onchange="userPhone(this)" >
 
-                    <p class="error validationerror"> You must fill out your telefon </p>
+                    <p class="error validationerror" id="checkPhone"></p>
                     </p>
 
 
                     <p>
                         <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" placeholder="harison.ford@gmail.com"/>
+                        <input type="email" id="email" name="email" placeholder="harison.ford@gmail.com" onchange="userEmail(this)"/>
 
-                    <p class="error validationerror"> You must write a valid email</p>
+                    <p class="error validationerror" id="checkEmail"> </p>
                     </p>
 
 
@@ -356,7 +356,7 @@
                     </p>
 
 
-                    <button type="submit" id="button-blue" onclick="showUser()">Trimite</button>
+                    <button type="submit" id="button-blue">Trimite</button>
 
                 </form>
 

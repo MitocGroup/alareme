@@ -29,3 +29,7 @@
 
   });
 })(DeepFramework);
+
+// el.className += ' disabled';
+// if (el.className.indexOf(disabled) > -1)
+// el.className += el.className.replace(' disabled', '');
