@@ -1,4 +1,4 @@
-
+'use strict';
 $(document).ready(function() {
   jQuery('.toggle-nav').click(function(e) {
     jQuery(this).toggleClass('active');
@@ -8,7 +8,6 @@ $(document).ready(function() {
   });
 
   setTimeout(function() {
-    "use strict";
 
     $( "#btn1" ).click(function(e) {
       slideUpAll();
