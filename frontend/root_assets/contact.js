@@ -4,11 +4,10 @@ window.alert("Hello")
 
 
 var userName = function(el) {
-  if(el.value === ''){
+  if(el.value === ''|| (el.value.length < 5) || (el.value.length > 15)){
     document.getElementById("checkName").innerHTML = "Introduceti numele d-stra";
   }
 };
-
 
 var userPhone = function(inputtxt) {
   var phoneno = /^\d{9}$/;
