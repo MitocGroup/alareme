@@ -1,6 +1,6 @@
+'use strict';
+'format es5';
 
-
-window.alert("Hello")
 
 
 var userName = function(el) {
@@ -29,3 +29,5 @@ var userEmail = function(el) {
     return false;
   }
 };
+
+
