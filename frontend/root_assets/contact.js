@@ -4,15 +4,18 @@ window.alert("Hello")
 
 
 var userName = function(el) {
-  if(el.value === ''|| (el.value.length < 5) || (el.value.length > 15)){
+  if(el.value === ''|| el.length <= 3 || el.length > 10){
     document.getElementById("checkName").innerHTML = "Introduceti numele d-stra";
+    return false;
   }
 };
 
 var userPhone = function(inputtxt) {
-  var phoneno = /^\d{9}$/;
-  if(inputtxt.value.match(phoneno)){
+  var phoneno = /^\d{8}$/;
+  var efield= '';
+  if(inputtxt.value.match(phoneno|| efield == true)){
     document.getElementById("checkPhone").innerHTML = "Introduceti telefonul d-stra";
+    return false;
   }
 };
 
