@@ -28,5 +28,5 @@ $(document).ready(function() {
     function slideUpAll() {
       jQuery(".hidden").slideUp('slow');
     }
-  }, 100);
+  }, 150);
 });
