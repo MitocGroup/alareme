@@ -23,7 +23,7 @@
     xhttp.send();
   }
 
-  loadAsset('@deep-alareme:js/app/vanilla/views/index.html', function(plainHtml) {
+  loadAsset('@deep-alareme:index.html', function(plainHtml) {
     var body = document.body;
     body.innerHTML = plainHtml;
 
