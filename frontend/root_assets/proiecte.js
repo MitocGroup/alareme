@@ -30,10 +30,3 @@ $(document).ready(function() {
     }
   }, 100);
 });
-
-
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").hide();
-  });
-});

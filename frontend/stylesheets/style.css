@@ -22,7 +22,8 @@ header {
   height: 95px;
   width: 100%;
   position: fixed;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.4);
+  z-index:2;
 }
 header .social_logo {
   float: left;
@@ -349,7 +350,8 @@ main #proiecte .section_content p.small{
 
 
 #contact {
-  background: #fafafa; }
+  background: #fafafa;
+  z-index: 1;}
 #contact .section_name {
   padding: 3.125em 0 2.500em 0; }
 #contact .section_content {
