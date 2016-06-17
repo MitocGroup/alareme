@@ -6,6 +6,8 @@ var userNameCheck = function(nameInput) {
   if(!nameInput || !nameInput.value){
     document.getElementById("checkName").innerHTML = "Numele și Prenumele Dumnevoastră";
     return false;
+  } else {
+    document.getElementById("checkName").innerHTML = "";
   }
 };
 
@@ -15,6 +17,9 @@ var userPhoneCheck = function(phoneInput) {
   if(phoneInput.value ==='' || phoneInput.value === phoneno){
     document.getElementById("checkPhone").innerHTML = "Telefonul Dumnevoastră";
     return false;
+  } else {
+    document.getElementById("checkPhone").innerHTML = "";
+
   }
 };
 
@@ -25,5 +30,8 @@ var userEmailCheck = function(emailInput) {
   if(emailInput.value === ''|| atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length){
     document.getElementById("checkEmail").innerHTML = "Adresa de email";
     return false;
+  } else {
+    document.getElementById("checkEmail").innerHTML = "";
+
   }
 };
