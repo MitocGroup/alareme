@@ -30,3 +30,4 @@ var userEmailCheck = function(emailInput) {
     document.getElementById("checkEmail").innerHTML = "";
   }
 };
+

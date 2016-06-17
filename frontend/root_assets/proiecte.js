@@ -26,7 +26,14 @@ $(document).ready(function() {
     });
 
     function slideUpAll() {
-      jQuery(".hidden").slideUp('slow');
+      jQuery(".hidden").hide();
     }
-  }, 150);
+  }, 100);
+});
+
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
 });
